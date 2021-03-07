@@ -61,7 +61,25 @@ rm file_name
 exit
 ```
 
-**当然也可以使用sftp软件提交作品，详细请看参考手册**
+**当然也可以使用sftp软件提交作品，详细请看参考手册！**
+
+## 算法结果提交
+
+- **算法结果提交地址**
+
+算法运行的结果要**固定输出到sftp的result目录下**，并且**文件命名为result.txt**，文件格式为utf-8。
+
+- **算法预测结果样式**
+
+![image.png](http://ww1.sinaimg.cn/large/005KJzqrgy1goberjvupsj30y40f440t.jpg)
+
+![image.png](http://ww1.sinaimg.cn/large/005KJzqrgy1gobesf6w8cj30x40aedhz.jpg)
+
+- **算法评分计算**
+
+**成绩计算使用召回率和精确率计算，通过两者计算F1-Score。取F1的平均后乘以30的到最后得分**
+
+**任务一输出的算法模型得分占总分的30%，任务二输出的优化方案展总得分70%**
 
 ## 相关思路
 
