@@ -2,6 +2,10 @@
 
 https://data.xm.gov.cn/contest-series/digit-china-2021/#/3/
 
+## 数据下载
+
+百度网盘下载：链接: https://pan.baidu.com/s/1YOObpX4EbhL4AXVx5VjL-w 密码: rcvm
+
 ## 赛题分析
 
 **算法分析题：**题目为第一个大题。
@@ -22,14 +26,42 @@ https://data.xm.gov.cn/contest-series/digit-china-2021/#/3/
 
 请先下载参考手册https://data.xm.gov.cn/image/2021file/userGuide.pdf
 
-使用命令行登陆sftp，然后进行作品提交
+- **如何登陆并提交作品？**
+
+**使用命令行登陆sftp，然后进行作品提交**
+
+复制下面命令行，然后输入密码即可，下面是我们队伍的专属sftp传输账号，登陆后就和Linux系统命令行差不多了
+
+**登陆：**
 
 ```
 命令行：sftp -oPort=57891 comp_3592@sftp.ai.xm.gov.cn
 输入密码：VYOiUlRKyps5Mr48
 ```
 
+**文件处理（put和get）：**
 
+```
+下载文件：
+登陆sftp账号，然后输入命令
+get -r remote_filename local_path
+就会将远程文件下载到本地
+
+上传文件：
+登陆sftp账号，然后输入命令
+put -r local_file remote_path
+
+删除文件：
+rm file_name
+```
+
+**退出登陆：**
+
+```
+exit
+```
+
+**当然也可以使用sftp软件提交作品，详细请看参考手册**
 
 ## 相关思路
 
