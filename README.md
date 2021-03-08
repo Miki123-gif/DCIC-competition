@@ -83,7 +83,12 @@ exit
 
 ## 相关思路
 
-DCIC算法分析题，直接运行提交就有18分的方案，快来试试吧！
+- **参考视频**
+
+https://www.bilibili.com/video/BV1Af4y1C7fv?zw
+
+- **参考代码**
+
 代码：https://cdn.coggle.club/dcic2021/DCIC-baseline.html
-提价方法：https://data.xm.gov.cn/contest-series-api/file/period_id_1/userGuide.pdf
+提交方法：https://data.xm.gov.cn/contest-series-api/file/period_id_1/userGuide.pdf
 
