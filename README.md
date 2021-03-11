@@ -93,3 +93,6 @@ https://www.bilibili.com/video/BV1Af4y1C7fv?zw
 
 提交方法：https://data.xm.gov.cn/contest-series-api/file/period_id_1/userGuide.pdf
 
+- **比赛问题记录**
+
+https://shimo.im/docs/dpgWPXRcygjKg9GH/read
